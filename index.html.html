@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+body {
+background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+font-family: sans-serif;
+padding: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.основано {
+  font-style: italic;
+}
+
+h1, h2, p {
+text-align: center;
+}
+
+.menu {
+width: 80%; 
+background: burlywood; 
+margin-left: auto; 
+margin-right: auto;
+padding: 20px;
+max-width: 500px;
+}
+
+img {
+display:block;
+margin-left: auto;
+margin-right: auto;
+margin-top: -25px;
+}
+
+hr {
+height: 2px;
+background: brown;
+border-color: brown;
+}
+
+.bottom-line {
+margin-top: 25px;
+}
+
+h1, h2 {
+font-family: Impact, serif;
+}
+
+.item p {
+display: inline-block;
+margin-top: 5px;
+margin-bottom: 5px;
+font-size: 18px;
+}
+
+.аромат, .дессерт {
+text-align: left; 
+width: 75%;
+}
+
+.цена {
+text-align: right; 
+width: 25%;
+}
+
+/* FOOTER */
+
+footer {
+font-size: 14px;
+}
+
+.адрес {
+margin-bottom: 5px;
+}
+
+a {
+color: black;
+}
+
+a:visited {
+color: black;
+}
+
+a:hover {
+color: brown;
+}
+a:active {
+color: brown;
+}
+
+</style>
+
+<title>Кафе Меню</title>
+
+</head>
+<body>
+<div class="menu">
+<header>
+<h1>АЛМАТЫ КАФЕ</h1>
+<p class="основано">Основано в 2022</p>
+</header>
+<hr>
+<main>
+<section>
+<h2>Кофе</h2>
+<img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon">
+<article class="item">
+<p class="аромат">Французкая Ванилла</p><p class="цена">100р</p>
+</article>
+<article class="item">
+<p class="аромат">Карамельная Макиато</p><p class="цена">120р</p>
+</article>
+<article class="item">
+<p class="аромат">Тыквенные Специи</p><p class="цена">110р</p>
+</article>
+<article class="item">
+<p class="аромат">Ореховое Кофе</p><p class="цена">150р</p>
+</article>
+<article class="item">
+<p class="аромат">Мокка</p><p class="цена">170р</p>
+</article>
+</section>
+<section>
+<h2>Дессерт</h2>
+<img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon">
+<article class="item">
+<p class="дессерт">Пончик</p><p class="цена">75р</p>
+</article>
+<article class="item">
+<p class="дессерт">Вишневый пирог</p><p class="цена">100р</p>
+</article>
+<article class="item">
+<p class="дессерт">Чизкейк</p><p class="цена">150р</p>
+</article>
+<article class="item">
+<p class="дессерт">Булочка с корицей</p><p class="цена">130р</p>
+</article>
+</section>
+</main>
+<hr class="bottom-line">
+<footer>
+<p>
+<a href="https://www.google.com/maps/search/coffee+map+almaty/@43.2291448,76.8688708,12.29z">Посетите нашу страничку карту</a>
+</p>
+<p class="адрес">Улица Кофейная 408е</p>
+        </footer>
+</div>
+</body>
+</html>
